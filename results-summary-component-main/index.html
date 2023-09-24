@@ -1,1 +1,79 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-info">
+        <h2 class="result">Your Result</h2>
+        <div class="circle">
+          <p class="score">76</p>
+          <p class="remaining">Of 100</p>
+        </div>
+        <h4 class="great">Great</h4>
+        <p class="great-text">
+          You've scored higher than 65% of the people who have taken this test
+        </p>
+      </div>
+      <div class="right-info">
+        <h3 class="summary">Summary</h3>
+        <div class="result-info">
+          <div class="reaction-div">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="none"
+              viewBox="0 0 20 20"
+            >
+              <path
+                stroke="#F55"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.25"
+                d="M10.833 8.333V2.5l-6.666 9.167h5V17.5l6.666-9.167h-5Z"
+              />
+            </svg>
+            <span class="title" id="reaction">Reaction</span>
+            <span class="reaction-div-value"><span>80</span><span class="text-color">/100</span></span>
+          </div>
+          <div class="memory-div">
+            <img src="assets/images/icon-memory.svg" alt="">
+            <span class="title" id="memory">Memory</span>
+            <span class="memory-div-value"><span>92</span><span class="text-color">/100</span></span>
+          </div>
+          <div class="verbal-div">
+            <img src="assets/images/icon-verbal.svg" alt="">
+            <span class="title" id="verbal">Verbal</span>
+            <span class="verbal-div-value"><span>61</span><span class="text-color">/100</span></span>
+          </div>
+          <div class="visual-div">
+            <img src="assets/images/icon-visual.svg" alt="">
+            <span class="title" id="visual">Visual</span>
+            <span class="visual-div-value"><span>72</span><span class="text-color">/100</span></span>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button class="btn-continue">Continue</button>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">AnasGrzor</a>.
+    </div> -->
+  </body>
+</html>
